@@ -1,0 +1,26 @@
+{
+    "name": "nepnepz/laravel-actions-log",
+    "description": "laravel actions log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nepnepz",
+            "email": "ealihanip@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nepnepz\\Actionslog\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nepnepz\\Actionslog\\ActionsLogServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
