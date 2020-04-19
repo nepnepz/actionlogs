@@ -1,6 +1,6 @@
 <?php
 
-namespace Nepnepz\Actionslog\Providers;
+namespace Nepnepz\Actionslog;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Filesystem\Filesystem;
