@@ -19,11 +19,11 @@ trait Log
 
     public function log()
     {
-        return $this->morphOne(LogModel::class, 'loggable');
+        return $this->morphOne(LogModel::class, 'loggable')->latest('id');
     }
 
     public function logs()
     {
-        return $this->morphMany(LogModel::class, 'loggable')->latest();
+        return $this->morphMany(LogModel::class, 'loggable')->orderByDesc('id');
     }
 }
